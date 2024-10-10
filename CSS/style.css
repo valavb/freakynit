@@ -52,6 +52,20 @@ body{
     background-color: #ed5145;
 }
 
+#active-nav{
+    border-bottom: 2px solid #fbfbfb;
+}
+
+.navbar-nav li:hover{
+    border-bottom: 2px solid #fbfbfb;
+    transition: all 0.2s;
+}
+
+#nav-contact-li:hover{
+    border: none!important;
+}
+
+
 
 /* Hero */
 
@@ -121,10 +135,7 @@ body{
 /* Hover Effects */
 a#link-hover{
     background-color: #ed5145;
-    transition: all 0.3s;
-}
-a#link-hover:hover{
-    background-color: #ee6157;
+    
     transition: all 0.3s;
 }
 
@@ -207,6 +218,14 @@ a#link-hover:hover{
 #signin a:hover,.redirect-signup a:hover{
     text-decoration: underline;
 
+}
+
+/* about us */
+.about-us-disc{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.3rem;
 }
 
 
