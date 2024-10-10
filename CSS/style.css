@@ -334,6 +334,17 @@
         
     }
 
+   /* sigin */
+   @media screen and (max-width: 1200px) {
+    #signin label, #signin input,#signin textarea,#signin textarea,#signin a{
+        font-size: 1rem;
+    } 
+    
+    .signin-form,.signup-form{
+        width: 70%;
+    }
+}
+
 
 
 
