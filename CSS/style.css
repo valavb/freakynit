@@ -317,10 +317,24 @@
             display: inline;
         }
     }
-    
-    @media screen and (max-width: 750px) {
+
+    /* pricing */
+    @media screen and (max-width: 1200px) {
+        #plan-contact-us label, #plan-contact-us input,#plan-contact-us textarea{
+            font-size: 1rem;
+        }    
+    }
+
+    @media screen and (max-width: 992px) {
+        #pricing-card{
+            margin-left: 0!important;
+            margin-top: 4rem!important;
+        }  
+        
         
     }
+
+
 
 
 
