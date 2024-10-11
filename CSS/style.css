@@ -65,6 +65,14 @@
         border: none!important;
     }
 
+    /* Link Hover */
+
+    #link-hover:hover,#nav-contact:hover {
+       background-color: #de3529;
+       transition: all 0.3s;
+    }
+    
+
 
 
     /* Hero */
@@ -134,13 +142,6 @@
 
     .testimonial-image img{
         float: left;
-    }
-
-    /* Hover Effects */
-    a#link-hover{
-        background-color: #ed5145;
-        
-        transition: all 0.3s;
     }
 
     /* Pricing Page */
