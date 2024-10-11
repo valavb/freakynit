@@ -69,11 +69,15 @@
 
     /* Hero */
 
-    #hero  div > span {
+    #hero  div > span,#ignite div > span {
         border: 1px solid #ed51458c;
     }
 
-    #hero span a,.hero-action .col-lg > a{
+    #ignite div > span#br{
+        border: 0;
+    }
+
+    #hero span a,#ignite span  > a,.hero-action .col-lg > a{
         text-decoration: none;
         color: #333;
         font-weight: bold;
