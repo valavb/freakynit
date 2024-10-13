@@ -349,7 +349,16 @@
         #pricing-card{
             margin-left: 0!important;
             margin-top: 4rem!important;
-        }  
+        } 
+        
+        .about-us-disc {
+            width: 80%;
+            text-align: justify;
+        }
+
+        #mission img,#core-values img{
+            margin-top: 3rem!important;
+        }
         
         
     }
