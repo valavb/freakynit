@@ -71,7 +71,7 @@
 
     /* Link Hover */
 
-    #link-hover:hover,#nav-contact:hover {
+    #link-hover:hover,#nav-contact:hover ,#submit-button:hover{
        background-color: #de3529;
        transition: all 0.3s;
     }
@@ -348,7 +348,7 @@
     @media screen and (max-width: 992px) {
         #pricing-card{
             margin-left: 0!important;
-            margin-top: 4rem!important;
+            margin-top: 3rem;
         } 
         
         .about-us-disc {
@@ -358,6 +358,14 @@
 
         #mission img,#core-values img{
             margin-top: 3rem!important;
+        }
+
+        #confused-plan{
+            margin-top: 2rem!important;
+        }
+        
+        #plan-contact-us{
+            width: 80%;
         }
         
         
