@@ -17,6 +17,10 @@
         color: #fbfbfb!important;
     }
 
+    .site-button{
+        background-color: #ed5145;
+    }
+
     .card-bg{
         background: #1F1F1F!important ;
         height: 100%;
@@ -255,6 +259,13 @@
     }
 
     @media screen and (max-width: 992px) {
+
+        #transform .hero-action{
+            margin-top: 2rem !important;
+        }
+        .cards img {
+            width: 80%;
+        }
         .navbar-collapse ul li{
             margin-left: 0!important;
             margin-top: 2rem!important;
@@ -315,7 +326,7 @@
         }
 
         .transform-text{
-            font-size:  3rem!important;
+            font-size:  2.5rem!important;
         }
         
         .ignite-disc{
